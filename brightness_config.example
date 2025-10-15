@@ -1,0 +1,87 @@
+# Enhanced Brightness Control Configuration
+# Edit this file to customize your morning routine
+
+# === BRIGHTNESS SETTINGS ===
+# Brightness level (0-100)
+BRIGHTNESS_LEVEL=100
+
+# Number of brightness key presses to ensure maximum brightness
+BRIGHTNESS_KEY_PRESSES=25
+
+# === TIMING SETTINGS ===
+# Schedule time (24-hour format)
+SCHEDULE_HOUR=8
+SCHEDULE_MINUTE=50
+
+# Delay between actions (in seconds)
+ACTION_DELAY=0.5
+
+# === DISPLAY SETTINGS ===
+# Wake up displays before adjusting brightness
+WAKE_DISPLAYS=true
+
+# Try DDC control for external monitors
+USE_DDC_CONTROL=true
+
+# Enable keyboard brightness simulation
+USE_KEYBOARD_SIMULATION=true
+
+# === MORNING ROUTINE FEATURES ===
+# Turn off Dark Mode
+DISABLE_DARK_MODE=true
+
+# Adjust system volume (0-100, set to -1 to skip)
+SYSTEM_VOLUME=50
+
+# Turn on Do Not Disturb mode (true/false)
+ENABLE_DND=false
+
+# === APPLICATION MANAGEMENT ===
+# Open specific applications (comma-separated list)
+# Example: "Calendar,Mail,Music"
+OPEN_APPS=""
+
+# Close specific applications (comma-separated list)
+# Example: "Slack,Discord"
+CLOSE_APPS=""
+
+# === ADVANCED SETTINGS ===
+# Enable verbose logging
+VERBOSE_LOGGING=true
+
+# Send desktop notifications
+SHOW_NOTIFICATIONS=true
+
+# Play sound when complete
+PLAY_SOUND=false
+
+# Check for system updates
+CHECK_UPDATES=false
+
+# === EXTERNAL MONITOR TOOLS ===
+# Preferred external monitor control tool (ddcctl, m1ddc, MonitorControl, auto)
+EXTERNAL_MONITOR_TOOL=auto
+
+# === SAFETY SETTINGS ===
+# Skip if running on battery (to preserve power)
+SKIP_ON_BATTERY=false
+
+# Maximum execution time in seconds (timeout protection)
+MAX_EXECUTION_TIME=60
+
+# === WEATHER INTEGRATION ===
+# Show weather in notification (requires internet)
+SHOW_WEATHER=false
+
+# Weather API key (optional, get from openweathermap.org)
+WEATHER_API_KEY=""
+
+# Your city for weather
+WEATHER_CITY="Seoul"
+
+# === CUSTOMIZATION ===
+# Custom notification message
+CUSTOM_MESSAGE="Good morning! Your displays are ready ☀️"
+
+# Enable morning greeting
+SHOW_GREETING=true

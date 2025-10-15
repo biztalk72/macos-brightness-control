@@ -1,0 +1,37 @@
+# Personal configuration files
+.brightness_config
+
+# Log files
+*.log
+brightness_*.log
+brightness_*.txt
+
+# System files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup files
+*.backup
+*.bak
+
+# Test files
+test_*
+debug_*
